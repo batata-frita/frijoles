@@ -1,30 +1,17 @@
 const ssbClient = require('ssb-client')
-const ssbKeys = require('ssb-keys')
-const ssbFeed = require('ssb-feed')
+const feed = require('./feed')
 
-const keys = ssbKeys.loadOrCreateSync('./app-private.key')
-console.log('keys', keys)
+ssbClient(function(err, sbot) {
+  if (err) throw err
+  console.log('connected as', sbot.id)
 
-ssbClient(
-  {
-    keys,
-  },
-  function(err, sbot) {
-    if (err) throw err
-    console.log('connected')
+  const feed$ = feed(sbot)
 
-    const feed = ssbFeed(sbot, keys)
-
-    feed.publish(
-      {
-        type: 'batata-frita/frijoles/new-world',
-        anything: {
-          value: 'given',
-        },
-      },
-      function(err) {
-        console.log('Posted message', err)
-      }
-    )
-  }
-)
+  feed$.subscribe({
+    next: message => {
+      console.log('MESSAGE', message)
+      sbot.close()
+      process.exit(0)
+    },
+  })
+})
