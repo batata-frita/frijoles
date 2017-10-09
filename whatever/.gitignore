@@ -1,2 +1,7 @@
 node_modules
 app-private.key*
+.DS_Store
+.sagui
+coverage
+dist
+npm-debug.log
