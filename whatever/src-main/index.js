@@ -1,8 +1,7 @@
 const { app, BrowserWindow } = require('electron')
-const { path } = require('ramda')
 const url = require('url')
 const ssbClient = require('ssb-client')
-const feed = require('./feed')
+const getPrivateFeed = require('./getPrivateFeed')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -16,14 +15,10 @@ function createWindow() {
     if (err) throw err
     console.log('connected as', sbot.id)
 
-    const feed$ = feed(sbot)
-      .filter(path(['private']))
-      .map(path(['value', 'content']))
-      .filter(content => content.type === 'post')
+    const privateFeed = getPrivateFeed(sbot)
 
-    feed$.subscribe({
+    privateFeed.subscribe({
       next: content => {
-        console.log('NEXT', content)
         win.webContents.send('post', content)
       },
     })

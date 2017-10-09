@@ -1,0 +1,839 @@
+[
+  {
+    "value": {
+      "key": "%ygzzSV09r2yOLFYwckIo9GkZ9T7xdiPRuVtGtkbjHno=.sha256",
+      "private": true,
+      "timestamp": 1507569161011,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "Hello [@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) ! \n\nTesting 123.",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%Z5rxrmQ+9LNA6BkLkU3Il3m2WxymOxdzp06glFhNu9E=.sha256",
+        "sequence": 39,
+        "signature":
+          "WC21b0esHask4OE++6DvymqCvSJyAea38pau+S07M6LAtHXMcYyxi0hjKzQDlsvI/kliwNdtntr4TiCtcep0BA==.sig.ed25519",
+        "timestamp": 1507569161010
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%Uvlcco0YdrwyLbU0XhFl1XPaik9EjRocgIlcaZis2M8=.sha256",
+      "private": true,
+      "timestamp": 1507567363368,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%WhJGlKQuXGzzCAN9eSPkrujI9sDeZjbTFvmdNrQi+4Y=.sha256",
+          "channel": null,
+          "mentions": [
+            {
+              "link": "&E+oLKSAoIRVthsZYvhpKnu6GoS2QMNXEV3p49ImXfO4=.sha256",
+              "name": "Screen Shot 2017-10-09 at 16.26.46.png",
+              "size": 21650,
+              "type": "image/png"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "text":
+            "![Screen Shot 2017-10-09 at 16.26.46.png](&E+oLKSAoIRVthsZYvhpKnu6GoS2QMNXEV3p49ImXfO4=.sha256)\n\nThat's all the bandwidth consumed today by patchwork. I think this might actually be OK to put on a phone",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%WhJGlKQuXGzzCAN9eSPkrujI9sDeZjbTFvmdNrQi+4Y=.sha256",
+        "sequence": 170,
+        "signature":
+          "w3gGyOHlFpv56Mvy5VsDDm3h53nc+YvzG7T9soJBaT9lkyYW1McAP4PSTOGMqrn7S0Rgpc5AYs2ZVXdcatK7BQ==.sig.ed25519",
+        "timestamp": 1507559270678
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%WhJGlKQuXGzzCAN9eSPkrujI9sDeZjbTFvmdNrQi+4Y=.sha256",
+      "private": true,
+      "timestamp": 1507548409335,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%Z5rxrmQ+9LNA6BkLkU3Il3m2WxymOxdzp06glFhNu9E=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "text": "My god, it's beautiful. Let's add a simple UI on top of it soon and enjoy it.",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%erA3aZouT/B882/gQpNjGJ9X7fIEaK4vGJjnLiHpfEY=.sha256",
+        "sequence": 169,
+        "signature":
+          "iq4oB90djdUUyDzdtlXwnSvPNWMGxYCosy1D923DO+kYg16Z6w1MQqGtgFLEPTWEUNcQ+qHv3Y4BcBxRshn3Cg==.sig.ed25519",
+        "timestamp": 1507548408691
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%erA3aZouT/B882/gQpNjGJ9X7fIEaK4vGJjnLiHpfEY=.sha256",
+      "private": true,
+      "timestamp": 1507548367552,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%Z5rxrmQ+9LNA6BkLkU3Il3m2WxymOxdzp06glFhNu9E=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "text": "No worries, thanks!",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%196d5ZmFDA5mMc9CaT1cbqGDm3Ap1XN4tLVXxARD2Fw=.sha256",
+        "sequence": 168,
+        "signature":
+          "tFQW5oLInhacESbDHjNLfoka+0GQquFalJlub7kxv60cCLGMET7n6vvyCtVMAtzsGnSzWhYMnoCahT8t8odiAA==.sig.ed25519",
+        "timestamp": 1507548365638
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%Z5rxrmQ+9LNA6BkLkU3Il3m2WxymOxdzp06glFhNu9E=.sha256",
+      "private": true,
+      "timestamp": 1507546553027,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "branch": "%vgF/a1B1vfaEb8fOZ2SjYlr9THL9kVoYDRb1ljYIPqU=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "text":
+            "Haha, sorry.\n\nWas half-asleep and forgot to post the link: https://github.com/batata-frita/frijoles/pull/1",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+        "sequence": 38,
+        "signature":
+          "U1hhm/HtMk+ColC7b3TJcWR3RDGw7OgdKR8U2kwLJ5VHMIzpPawF3rkvPz/lZxLJKqtfNTKjUwbms22hTxAXCw==.sig.ed25519",
+        "timestamp": 1507546553026
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%vgF/a1B1vfaEb8fOZ2SjYlr9THL9kVoYDRb1ljYIPqU=.sha256",
+      "private": true,
+      "timestamp": 1507538294830.001,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+          "text": "Amazing. Did you push it somewhere?",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%k/0ouJ32zc35RPFOMVkqkbFxClYYTWAMeQjoC8Wb+mE=.sha256",
+        "sequence": 166,
+        "signature":
+          "F+fpsx0REcbjUvYw7jAULTLOPUldZRS1EU+yx0GB6nlO3y56nqOhV0nGL4pu3pcDJr5zzo+LqplHAIMDBeyFCA==.sig.ed25519",
+        "timestamp": 1507536553848
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%k/0ouJ32zc35RPFOMVkqkbFxClYYTWAMeQjoC8Wb+mE=.sha256",
+      "private": true,
+      "timestamp": 1507538294745,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "private": true,
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519"
+          ],
+          "type": "vote",
+          "vote": {
+            "expression": "Like",
+            "link": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+            "value": 1
+          }
+        },
+        "hash": "sha256",
+        "previous": "%aP6PnMH9B5hC7RHCKVF/ipVSXe2OtLfOU8iqVXHZ9Jk=.sha256",
+        "sequence": 165,
+        "signature":
+          "L9QnCxqtFk8KRA5Rp99XK/sk1WQo+CcyOoboV+Q7wLSvMkHB5CjpKpWqtzPh00J4Hq2Xr913dG4F7FANkrlaBg==.sig.ed25519",
+        "timestamp": 1507536537287
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%ExkwZF8Hqts+OSGR7IJHD+FjFpnSa/VAXapSDGy0FDw=.sha256",
+      "private": true,
+      "timestamp": 1507498143565,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) \n\nDude! It works.... I mean, it is kinda of a mess to read the log, but... we have the list of channels!\n\nNot exactly what we wanted for the chat POC, but just something I wanted to hack before go to bed.\n\nCheers!",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%mhmpKkvInb4pxskwroKk3OCtXdh4LKJwmw6EmhK5LW8=.sha256",
+        "sequence": 37,
+        "signature":
+          "thAorrauP7os5GqINtWjx2HUIE7r6e8ioFDjETm0zXmYuvC5FQJHOxTgvp3k5KepU3dBa2R9hiDsDA/ew9n6BQ==.sig.ed25519",
+        "timestamp": 1507498143564
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%UlRx7ig6kNdtp+er5LSBLkstJ6hkHab9UrfpriZva00=.sha256",
+      "private": true,
+      "timestamp": 1507489166797,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) \n\nHere it is:\n\n```\n\n\n//read source and log it.\nvar logger = function () {\n  return function (read) {\n    read(null, function next(end, data) {\n      if(end === true) return\n      if(end) throw end\n\n      console.log(data)\n      read(null, next)\n    })\n  }\n}\n\n```",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%RnVDp6TqqyWnO1FPzzXptPW92hJayfA/Hp7GcZ91E48=.sha256",
+        "sequence": 35,
+        "signature":
+          "qTeUVjamqQ+UqYLmaHtZCign5GwXg1fItwCInQfZk9hVy4uSCmN+vuB2jh8sRfH2UV+rO1nDgMTAHshkOuHqCA==.sig.ed25519",
+        "timestamp": 1507489166796
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%RnVDp6TqqyWnO1FPzzXptPW92hJayfA/Hp7GcZ91E48=.sha256",
+      "private": true,
+      "timestamp": 1507488380851,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) `batata-frita/frijoles/new-world`",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%EeBC+Mk10dJjDUZQrpQ8TpHUc45bi+cU0hOa+pntkHg=.sha256",
+        "sequence": 34,
+        "signature":
+          "claFKgIg3dqg4Kv7d7M7QP7uS5eSNTZdPvUhkZ8xw19pNfArwiNZ9ke8iY46F3+FYfWCRNBYhCcdJgPJTOX0Dg==.sig.ed25519",
+        "timestamp": 1507488380850
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%uIcbuE3jr/U3N0LepnKKZjMgzeotbJuxwcQY8nKbbzs=.sha256",
+      "private": true,
+      "timestamp": 1507486783044,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519)  Wh6UE2ce/TY2H6j30fTtJm1z8Pc6K63ldN07lh2XKQU=.ed25519\n",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%S6yk+JOrQ0N0ARL8kJrJcVpZqfpUUPqYVFhHjdsd3Cw=.sha256",
+        "sequence": 31,
+        "signature":
+          "JvBcZH7OcEstzhVwaqBfjzEJuM9uYRvbC4+S1BKgpKGQFieeeeZHwYoB3tONGcmffF5qOxk+ib0Z5lnB/GCCAg==.sig.ed25519",
+        "timestamp": 1507486783042
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%LmJ5hhDrgJ8Z0v/DOzdyC8NoyQqEVDsxqek5ikJDzGA=.sha256",
+      "private": true,
+      "timestamp": 1507481877089,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%Tc0P0N6wqWULKvjXkWEfROsRTaYea9lC7tmDE6CKyv4=.sha256",
+          "channel": null,
+          "mentions": [{ "link": "%/msvAUaihheeu7SqObV3xS0uoSMp+HKhgQ3wnOL24Bw=.sha256" }],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%fmeRrlHLZQJNrHvvM5VYDx/1v7ABtIQF2J4QP4mnx+w=.sha256",
+          "text":
+            "Here is what you were asking about %/msvAUaihheeu7SqObV3xS0uoSMp+HKhgQ3wnOL24Bw=.sha256",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%Tc0P0N6wqWULKvjXkWEfROsRTaYea9lC7tmDE6CKyv4=.sha256",
+        "sequence": 162,
+        "signature":
+          "iQy2odDftyH4u5obYU1r9qAoRsLyc+50zmUDcEph9uAJCISt2CsaoarYyBvmJeJenNQY5pdAYEZwyhvDygd0Dw==.sig.ed25519",
+        "timestamp": 1507481876171
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%Tc0P0N6wqWULKvjXkWEfROsRTaYea9lC7tmDE6CKyv4=.sha256",
+      "private": true,
+      "timestamp": 1507481184609,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%fmeRrlHLZQJNrHvvM5VYDx/1v7ABtIQF2J4QP4mnx+w=.sha256",
+          "channel": null,
+          "mentions": [{ "link": "%oBv7kQjr7KnsbXX2fWB70MUVIQtOzIbkgD16RrqeWP4=.sha256" }],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%fmeRrlHLZQJNrHvvM5VYDx/1v7ABtIQF2J4QP4mnx+w=.sha256",
+          "text": "%oBv7kQjr7KnsbXX2fWB70MUVIQtOzIbkgD16RrqeWP4=.sha256",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%oBv7kQjr7KnsbXX2fWB70MUVIQtOzIbkgD16RrqeWP4=.sha256",
+        "sequence": 161,
+        "signature":
+          "cCEXXV+7tE5HGlxY68QBRQz4dc+Tgdirreulbve+y5KHzRw/D4n/3ALCgPBLqKWJ5F35vKNt08DWZ08iiMN2Dw==.sig.ed25519",
+        "timestamp": 1507481183396
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%fmeRrlHLZQJNrHvvM5VYDx/1v7ABtIQF2J4QP4mnx+w=.sha256",
+      "private": true,
+      "timestamp": 1507476584296,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) this is great for backing up http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%X/4FoJLabNWQp6xUKPBn2Os2Jt4YtdULt6j/u6fIGr8=.sha256",
+        "sequence": 28,
+        "signature":
+          "tAwsDlylxR9nxZmCe0c4paLVug2GAE85hntLhaHq7a9OvSLEwC6u0yvBS71HIHfvGlBFKWk0ax/pfPeewCH6BQ==.sig.ed25519",
+        "timestamp": 1507476584296
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%ThcjSyTLmUYQQvW3yEwfM8AGX6QQ+jQJyEtNZ3PKURE=.sha256",
+      "private": true,
+      "timestamp": 1507475862962,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text":
+            "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) here it is npm install --global scuttlebot",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%9dFCCUZaJ2+mwLKqfrtqVl4E9n0aDD62TlmnlpqpjkE=.sha256",
+        "sequence": 25,
+        "signature":
+          "7QDtThjTGSDC61XH+HgAPv5yuf16sI6JZSk/dGp4o/gm//aVuXmN8c1g95XAVTYsQZ4hL86lZT3oteo8yxrvDQ==.sig.ed25519",
+        "timestamp": 1507475862961
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%q+SrJbIIV+dwMZNzW2UAvr+beS9WTnVredVVrSiTQXI=.sha256",
+      "private": true,
+      "timestamp": 1507475383113,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%5DYCmeFNoAZBW+NmH0ovd2oj5M7jm8gwMTGBHPwaxrY=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+          "text": "https://github.com/ssbc/scuttlebot/wiki/Pub-Servers",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%oGlsRKTBKsC3VJhpooeegJKz+Fjc7ZkBJkgHvfVdCrg=.sha256",
+        "sequence": 153,
+        "signature":
+          "HTKK32ZymuUDHws39DjPB/h77/CRZA2kwQCXn8m0Od4Nod8JsQ97zA8OySt2pyj3VElyp7P46nc8l8wjPu/4BA==.sig.ed25519",
+        "timestamp": 1507475382892
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%1tbOPWwuGpuzzSNQZ7Vye7Uu4BvGd+HAO2jlrseipt4=.sha256",
+      "private": true,
+      "timestamp": 1507474530660,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [],
+          "recps": ["@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519"],
+          "text": "https://www.scuttlebutt.nz/guides/cli-first-steps.html",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%X+RbA9J5OBsCgUpRYrEpWMmFN64QDDpwVyx5P5+OBEg=.sha256",
+        "sequence": 19,
+        "signature":
+          "ZeiIKwDlQEPM1tykgenUfdA1vwJMKcvJZBaSpgdOfe8avB6tEGiKwt+/HabTfR4ve3HvTnoRn9rwh7ng+oBfCQ==.sig.ed25519",
+        "timestamp": 1507474530659
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%5DYCmeFNoAZBW+NmH0ovd2oj5M7jm8gwMTGBHPwaxrY=.sha256",
+      "private": true,
+      "timestamp": 1507472923570,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%jYkFQRongMpDo7+ilpV2xHZB5YYbQDgIH8X7p896mGc=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+          "text": "ssb://%nHBMVY68haxCjsHxJi9PXtO56fojplg98oa0xgSc248=.sha256 <- merkle-graph",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%3KZQPqs7lk5n4skzMuWoz+A/26JiPLGpNmiEjT22Foc=.sha256",
+        "sequence": 142,
+        "signature":
+          "ixhRR4tYhp1kDIqVKyyb6ON2bfO0012x8LBxzU2TeKiuV16oONg/+S5uAiqEWvGC0AxDFr1X+A17VRG8j3PYDA==.sig.ed25519",
+        "timestamp": 1507472923307
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%jYkFQRongMpDo7+ilpV2xHZB5YYbQDgIH8X7p896mGc=.sha256",
+      "private": true,
+      "timestamp": 1507472054020,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%xtfTQfR2l648ARS+krRkHXT4Bo3Hk3MQIVtrY/ejSQo=.sha256",
+          "channel": null,
+          "mentions": [],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+          "text": "https://github.com/clehner/git-ssb",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%oU2FcmIoAFtVV7p6PDdzbUXL2ZoXmvkz0VGmzjjiS9Q=.sha256",
+        "sequence": 138,
+        "signature":
+          "3YLWQnyJfvHECGkWAXl01+fKMNrvnooZ9/rYtxTEIhEgtEuN827B/xlyOXaLkspX+7aPPQapuW/n/lGjVOyQCw==.sig.ed25519",
+        "timestamp": 1507472053559
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%oU2FcmIoAFtVV7p6PDdzbUXL2ZoXmvkz0VGmzjjiS9Q=.sha256",
+      "private": true,
+      "timestamp": 1507472049627,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "channel": null,
+          "private": true,
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519"
+          ],
+          "type": "vote",
+          "vote": {
+            "expression": "Unlike",
+            "link": "%xtfTQfR2l648ARS+krRkHXT4Bo3Hk3MQIVtrY/ejSQo=.sha256",
+            "value": 0
+          }
+        },
+        "hash": "sha256",
+        "previous": "%3pnNHiXr7mlV7XY564x/a7eYrtyC0t8rNfFSeD/Tk8o=.sha256",
+        "sequence": 137,
+        "signature":
+          "sFC/KBQ/SxmSv7GlAjRouWzwvkGV5NT1pui/X3fp96PMdX+4BlsHNSL/3ywCsJNTwcnSkxxkP0dwdiCBJj1YBg==.sig.ed25519",
+        "timestamp": 1507472049462
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%3pnNHiXr7mlV7XY564x/a7eYrtyC0t8rNfFSeD/Tk8o=.sha256",
+      "private": true,
+      "timestamp": 1507472049199,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "channel": null,
+          "private": true,
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519"
+          ],
+          "type": "vote",
+          "vote": {
+            "expression": "Like",
+            "link": "%xtfTQfR2l648ARS+krRkHXT4Bo3Hk3MQIVtrY/ejSQo=.sha256",
+            "value": 1
+          }
+        },
+        "hash": "sha256",
+        "previous": "%4OkWSLVbOozJeO3tUMhCzcfWYX9AW3Su7rDbm1s4FAk=.sha256",
+        "sequence": 136,
+        "signature":
+          "UYnWnp/g3P0SryyU+fi4W3Y9iZsCbRHQSDOQ+6LhOsfkxRVlSc2vba3YRum/+9mB34/oLVJZEaAc0nawZBSrAg==.sig.ed25519",
+        "timestamp": 1507472048528
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%4OkWSLVbOozJeO3tUMhCzcfWYX9AW3Su7rDbm1s4FAk=.sha256",
+      "private": true,
+      "timestamp": 1507471816526,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "private": true,
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519"
+          ],
+          "type": "vote",
+          "vote": {
+            "expression": "Like",
+            "link": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+            "value": 1
+          }
+        },
+        "hash": "sha256",
+        "previous": "%xtfTQfR2l648ARS+krRkHXT4Bo3Hk3MQIVtrY/ejSQo=.sha256",
+        "sequence": 135,
+        "signature":
+          "HDLXhjXpRMHHtA1yVybhSUqkQY1eVzX6RBQP67Vu1qyBwOWjk4wdUiFJyZCBEQIkcmTNIeXMdKSbkHS813ZlDw==.sig.ed25519",
+        "timestamp": 1507471816230
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%xtfTQfR2l648ARS+krRkHXT4Bo3Hk3MQIVtrY/ejSQo=.sha256",
+      "private": true,
+      "timestamp": 1507471542424.0215,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "branch": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+          "channel": null,
+          "mentions": [
+            {
+              "link": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+              "name": "pirelenito"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "root": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+          "text":
+            "Hello you [@pirelenito](@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519) !",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%7SO91WHXiZhvYwlgKFWl6K6ouDxZbYIeZ7z/KUqkpKs=.sha256",
+        "sequence": 134,
+        "signature":
+          "lMRbhrJFf2m3kdTX4B2gu+sQIKBtsymywxwwLI3mEdiZZIAxH1KgZwQMuj0UJUFrXpScS1LCPodcERY2UIakDw==.sig.ed25519",
+        "timestamp": 1507471541190
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%tLJ6OmXkuHMI5/ZsYh4/x4NzC22nRhS3vs1GZsN7RQI=.sha256",
+      "private": true,
+      "timestamp": 1507471530702.0264,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "text": "Hello [@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) ",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%H1lDHv4Yt2DnepOF74mwVXAh1nrhjXfSY3MtY4f0F3I=.sha256",
+        "sequence": 6,
+        "signature":
+          "xXQ45A1k/jcLKzTuk9RdCgKpALunnrbzLcHCcD09bIvN0m1lkKQmtdfyrlI0D4LEE8Ds0vi4v3D4FKbQEWrnCQ==.sig.ed25519",
+        "timestamp": 1507471530511
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%H1lDHv4Yt2DnepOF74mwVXAh1nrhjXfSY3MtY4f0F3I=.sha256",
+      "private": true,
+      "timestamp": 1507471455355.028,
+      "value": {
+        "author": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+        "content": {
+          "branch": "%rOp/t2Gyh7vfowmMAYqm1x2LVcqKwPvEcE4uA2NIC/c=.sha256",
+          "channel": null,
+          "mentions": [
+            {
+              "link": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+              "name": "Xavier Via"
+            }
+          ],
+          "recps": [
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+            {
+              "link": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+              "name": "pirelenito"
+            }
+          ],
+          "root": "%rOp/t2Gyh7vfowmMAYqm1x2LVcqKwPvEcE4uA2NIC/c=.sha256",
+          "text": "[@Xavier Via](@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519) wow",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%lbRiCUb2mI2dHt/Ny8UUixUjMClzFrzNot/gwLeBdKM=.sha256",
+        "sequence": 5,
+        "signature":
+          "2TlEbtgtjItW1Rxegl8ENc+oXF2Rj/r248gqKg/q93ANkdoPWrHIi6fmOILtXRKFiUPUSyWOhPBcEPtcbTZ2Dg==.sig.ed25519",
+        "timestamp": 1507471455214
+      }
+    }
+  },
+  {
+    "value": {
+      "key": "%rOp/t2Gyh7vfowmMAYqm1x2LVcqKwPvEcE4uA2NIC/c=.sha256",
+      "private": true,
+      "timestamp": 1507471156749.1343,
+      "value": {
+        "author": "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+        "content": {
+          "mentions": [
+            {
+              "link": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+              "name": "pirelenito"
+            }
+          ],
+          "recps": [
+            "@J0rQI2s0h4wIUy3xEyCUB+gKn9cgolCAdsT2vmv+pLU=.ed25519",
+            {
+              "link": "@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519",
+              "name": "pirelenito"
+            }
+          ],
+          "text": "[pirelenito](@8k/aqzhJ/YoYk9tFfCGdNBgGgAgvcWmVXTCb2UQUvn0=.ed25519)\n\nHello!!!",
+          "type": "post"
+        },
+        "hash": "sha256",
+        "previous": "%FuCwntzLKH7DToNw2Ha/IUg0kHsMHCVyZjzFrX32oHs=.sha256",
+        "sequence": 132,
+        "signature":
+          "EKaDscmOSQdu8bZX7qC1fEuzcKBOZ+gOM8YxKi7heEEDNhRGQWkPxD9w3cJFiMGjVbKiw6Juh1VJSZCYshQECg==.sig.ed25519",
+        "timestamp": 1507471080784
+      }
+    }
+  }
+]
