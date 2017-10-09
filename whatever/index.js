@@ -4,19 +4,13 @@ const { createStore } = require('redux')
 const { path } = require('ramda')
 
 const initialState = {
-  channels: [],
+  texts: [],
 }
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'APPEND_FEED_CONTENT':
-      const channel = action.payload.channel
-
-      if (!channel || state.channels.indexOf(action.payload.channel) !== -1) {
-        return state
-      }
-
-      return { ...state, channels: [...state.channels, action.payload.channel] }
+      return { ...state, texts: [...state.texts, action.payload.text] }
 
     default:
       return state
@@ -32,6 +26,7 @@ ssbClient(function(err, sbot) {
   console.log('connected as', sbot.id)
 
   const feed$ = feed(sbot)
+    .filter(({private}) => private)
     .map(path(['value', 'content']))
     .filter(content => content.type === 'post')
 
@@ -41,5 +36,5 @@ ssbClient(function(err, sbot) {
 })
 
 store.subscribe(() => {
-  console.log('>>', store.getState().channels)
+  console.log('>>', store.getState().texts)
 })
